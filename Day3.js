@@ -2,7 +2,7 @@
 
 // Task 1
 console.log("Task 1 \n");
-let no = 0;
+let no = 0;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 if (no > 0) console.log("Positive");
 else if (no < 0) console.log("Negative");
 else console.log("Zero");
