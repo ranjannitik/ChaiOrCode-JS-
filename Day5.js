@@ -4,11 +4,8 @@ console.log("Activity 1: Function Declaration");
 // Task 1: Write a function to check if a number is even or odd and log the result to the console.
 console.log("Task 1:");
 function isEvenOrOdd(number) {
-    if (number % 2 === 0) {
-        console.log(`${number} is even`);
-    } else {
-        console.log(`${number} is odd`);
-    }
+    if(number%2==0)console.log(`${number} is Even Number`)
+    else console.log(`${number} is Odd no`)
 }
 isEvenOrOdd(7);
 isEvenOrOdd(8);
@@ -83,7 +80,7 @@ function repeatFunction(fn, times) {
         fn();
     }
 }
-repeatFunction(() => console.log("Hello!"), 3);
+repeatFunction(() => console.log("Hello!"), 3);  //op hello is a fn send as parameter
 
 // Task 10: Write a higher-order function that takes two functions and a value, applies the first function to the value, and then applies the second function to the result.
 console.log("Task 10:");
